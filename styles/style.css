@@ -1,0 +1,920 @@
+html,
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Positioneren van de vaste header */
+header:first-of-type {
+  background-color: white;
+  position: fixed;
+  height: 12em;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3em;
+  padding-right: 3em;
+  z-index: 99999;
+}
+
+/* Positioneren van de iconen in de vaste header */
+header:first-of-type > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  width: 40vw;
+}
+
+header:first-of-type > a > img {
+  height: 6em;
+}
+
+/* Grootte van de iconen */
+header:first-of-type i {
+  font-size: 4em;
+}
+
+/* kleur van de iconen */
+header:first-of-type > div > a > i {
+  color: black;
+}
+
+/* Kleur van het hamburger menu */
+header:first-of-type > div > i {
+  color: #d52b1e;
+}
+
+/* Hamburger menu is standaard gesloten */
+body > header.actiefMenu {
+  transform: translateX(0);
+}
+
+/* Breedte en animatie van hamburger menu */
+header:last-of-type {
+  position: fixed;
+  top: 12em;
+  width: 100vw;
+  transform: translateX(100%);
+  z-index: 9999;
+  transition: 1s;
+  animation-direction: reverse;
+}
+
+header:last-of-type ul {
+  height: 48vh;
+  width: 100vw;
+  padding: 0;
+}
+
+header:last-of-type > ul:first-of-type {
+  background-color: white;
+}
+
+header:last-of-type > ul:last-of-type {
+  background-color: grey;
+  color: white;
+}
+
+header:last-of-type li {
+  display: flex;
+  font-size: 3em;
+  justify-content: space-between;
+  align-items: center;
+  height: 2em;
+  border-bottom: 2px solid grey;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100vw;
+}
+
+/* Pijltje bij de onderdelen in het hamburger menu */
+header:last-of-type span {
+  transform: rotate(90deg);
+}
+
+main {
+  margin-top: 12em;
+  margin-bottom: 9em;
+}
+
+body {
+  background-color: white;
+  width: 100vw;
+}
+
+.homepage section:first-of-type {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  color: white;
+}
+
+h5 {
+  font-size: 0.75em;
+  color: white;
+}
+
+.categorie-opschuiving {
+  padding-left: 2em;
+}
+
+.list-opschuiving {
+  margin-bottom: 4em;
+}
+
+/* Hero image met tekst eroverheen */
+.homepage section:first-of-type h1 {
+  background-image: url("../images/tracer-motor.jpeg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 7.8em;
+  color: white;
+  height: 5em;
+  padding-left: 0.5em;
+  padding-bottom: 0.2em;
+}
+
+/* Ontdek button */
+section:first-of-type a {
+  background-color: #d52b1e;
+  color: white;
+  font-size: 2.5em;
+  text-decoration: none;
+  text-align: center;
+  width: 80vw;
+  padding: 0.8em;
+  margin-left: 10vw;
+  margin-bottom: 1em;
+}
+
+.homepage section:first-of-type span {
+  font-size: 2.5em;
+  margin-top: 1.75em;
+  margin-bottom: 1.75em;
+  margin-left: 10vw;
+}
+
+/*Begin van de styling van categorieën*/
+.homepage section:nth-of-type(2) {
+  display: flex;
+  max-width: 100vw;
+}
+
+.homepage section:nth-of-type(2) > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+}
+
+/* Positioneren van de blokken van de categorieën */
+.homepage section:nth-of-type(2) > ul > li {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover;
+}
+
+/* Overlay van de foto's, om deze donkerder te maken */
+.homepage section:nth-of-type(2) > ul > li > div{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.homepage section:nth-of-type(2) > ul > li > div:first-of-type{
+  height: 40%;
+}
+
+.homepage section:nth-of-type(2) > ul > li > div:last-of-type{
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.homepage section:nth-of-type(2) > ul > li > div> h3{
+  font-size: 4em;
+  margin-top: 1em;
+  margin-left: .7em;
+}
+
+.homepage section:nth-of-type(2) > ul > li > div> h5{
+  font-size: 3em;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+/* Background images voor elke categorie */
+.homepage section:nth-of-type(2) > ul.categorieen > li:nth-of-type(1) {
+  background-image: url("../images/road-image.png");
+}
+
+.homepage section:nth-of-type(2) > ul.categorieen > li:nth-of-type(2) {
+  background-image: url("../images/off-road-categorie.jpeg");
+}
+
+.homepage section:nth-of-type(2) > ul.categorieen > li:nth-of-type(3) {
+  background-image: url("../images/marine-image.jpeg");
+}
+
+.homepage section:nth-of-type(2) > ul.categorieen > li:nth-of-type(4) {
+  background-image: url("../images/yamaha-webshop.jpeg");
+}
+
+/* Kleur van de tekst van elke categorie link */
+.homepage section:nth-of-type(2) ul li ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.65em;
+}
+
+.homepage section:nth-of-type(2) ul li ul li {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 0.8em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  border: 0.25em solid white;
+  width: 90vw;
+  display: flex;
+  font-size: 1.5em;
+}
+
+/*De styling en positionering van de Road categorie*/
+
+.road-categorie h5 {
+  margin-bottom: 21rem;
+}
+
+.off-road-categorie h5 {
+  margin-bottom: 13rem;
+}
+
+/*De styling en positionering van de Marine categorie*/
+.marine-categorie img {
+  position: absolute;
+  z-index: -1;
+  top: 120.8em;
+  width: 100vw;
+  filter: brightness(70%);
+}
+
+.marine-categorie h5 {
+  margin-bottom: 13rem;
+}
+
+/*De styling en positionering van de Yamaha webshop*/
+.yamaha-webshop img {
+  position: absolute;
+  z-index: -1;
+  top: 157.2em;
+  width: 100vw;
+  filter: brightness(70%);
+}
+
+.yamaha-webshop h5 {
+  margin-bottom: 17rem;
+}
+
+.yamaha-webshop {
+  margin-bottom: 0;
+}
+
+/*Kopje van de overgang naar het 2e deel van de pagina*/
+.homepage article section:first-of-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #3a3a3c;
+  border: none;
+  padding-bottom: 40em;
+  margin-top: -4.08em;
+  padding-top: 5em;
+}
+
+.homepage article section:first-of-type div {
+  width: 70vw;
+}
+
+.homepage article section:first-of-type div p {
+  font-size: 2.25em;
+  color: white;
+  margin-top: 2em;
+}
+
+.subtitel {
+  font-size: 4em;
+}
+
+/* Rij van images */
+
+.homepage .img-column {
+  position: relative;
+}
+
+/* Positioneren van de fotos (over het grijze vlak) */
+.homepage .img-column ul {
+  position: relative;
+  z-index: 1;
+  top: -20em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.homepage .img-column ul li {
+  width: 90vw;
+  height: 30vh !important;
+  position: relative;
+  background-size: cover;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end !important;
+  color: white;
+}
+
+.homepage .img-column ul li > div{
+  width: 90vw;
+  height: 30vh !important;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 2em;
+}
+
+
+.homepage .img-column ul li a {
+  text-decoration: none;
+}
+
+.homepage .img-column ul li h2 {
+  color: white !important;
+  font-size: 5em;
+}
+
+.homepage .img-column ul li h4 {
+  color: white !important;
+  font-size: 3em;
+}
+
+/* List van foto's van subcategorieën */
+.homepage .img-column ul li:nth-of-type(1) {
+  background-image: url("../images/mygarage-app.png");
+}
+
+.homepage .img-column ul li:nth-of-type(2) {
+  background-image: url("../images/you.jpeg");
+}
+
+.homepage .img-column ul li:nth-of-type(3) {
+  background-image: url("../images/marine-accessoires.jpeg");
+}
+
+.homepage .img-column ul li:nth-of-type(4) {
+  background-image: url("../images/boten.jpeg");
+}
+
+.homepage .img-column ul li:nth-of-type(5) {
+  background-image: url("../images/yamaha-personaliseer.jpeg");
+}
+
+.homepage .img-column ul li:nth-of-type(6) {
+  background-image: url("../images/myride-app.jpeg");
+}
+
+
+/* CSS van de detailpagina begint hier */
+.detailpagina > ul:first-of-type {
+  background-color: #dfdfdf;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  height: 3em;
+  width: 100vw;
+}
+
+.detailpagina > ul:first-of-type > li {
+  display: flex;
+}
+
+/* Indexering van de pagina's */
+.detailpagina > ul:first-of-type > li > a {
+  font-size: 2em !important;
+  margin-left: 0.5em;
+  text-decoration: none;
+  color: grey;
+}
+
+/* In-page navigatie */
+.detail-nav {
+  background-color: #d52b1e;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detail-nav h2 {
+  width: 90vw;
+  font-size: 5em;
+  color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Dropdown button */
+.dropdown-button {
+  font-family: "Roboto", sans-serif;
+  font-size: 5em;
+  background-color: white;
+  color: #d52b1e;
+  border: none;
+  overflow: hidden;
+  width: 90vw;
+  margin-bottom: 1em;
+  padding-left: .5em;
+  padding-right: .5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Items in de dropdown */
+.dropdown-items {
+  top: 111px;
+  display: none;
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  flex-direction: column;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-right: 0;
+  background-color: white;
+}
+
+.dropdownShow {
+  display: flex !important;
+  visibility: visible !important;
+  z-index: 4 !important;
+}
+
+.dropdown-items a {
+  width: 90vw !important;
+  background-color: black;
+  margin: 0 !important;
+}
+
+/* Animatie van het pijltje */
+.fa-chevron-right {
+  color: #d52b1e;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  transform: rotate(90deg);
+}
+
+.draaiPijl {
+  transform: rotate(270deg);
+}
+
+.dropdown:active .dropdown-items {
+  display: block;
+}
+
+.detailpagina section:nth-of-type(2) {
+  margin-top: 5em;
+  text-align: center;
+}
+
+.detailpagina section:nth-of-type(2) h2 {
+  margin-bottom: 1em;
+  font-size: 5em;
+}
+
+.detailpagina section:nth-of-type(2) p {
+  margin-bottom: 10vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+
+}
+
+/* Media blok en slider */
+.detailpagina section:nth-of-type(2) > div:first-of-type {
+  margin-top: 5em;
+  width: 100vw;
+}
+
+.detailpagina section:nth-of-type(2) > div:first-of-type > img {
+  margin-top: 5em;
+  width: 100vw;
+}
+
+.detailpagina section:nth-of-type(2) > div:last-of-type {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  overflow-x: scroll;
+}
+
+.detailpagina section:nth-of-type(2) > div:last-of-type > img {
+  width: 30vw;
+  margin-right: 1em;
+}
+
+/* Button */
+.detailpagina section:nth-of-type(2) > a {
+  background-color: #d52b1e;
+  padding: 0.5em 0.25em 0.5em 0.25em;
+  text-decoration: none;
+  color: white;
+  font-size: 3em;
+}
+
+/* styling van het speed of darkness kopje */
+.detailpagina section:nth-of-type(3) {
+  margin-top: 5rem;
+  margin-bottom: 6rem;
+}
+
+.detailpagina section:nth-of-type(3) h3 {
+  color: #d52b1e;
+  text-align: center;
+  font-size: 4em;
+}
+
+.detailpagina section:nth-of-type(3) p {
+  text-align: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  line-height: 45px;
+}
+
+.detailpagina section:nth-of-type(3) p:nth-of-type(1) {
+  margin-top: 4em;
+}
+
+.detailpagina section:nth-of-type(3) p:nth-of-type(2) {
+  margin-top: 3em;
+}
+
+/* styling van de list van noemenswaardige onderdelen */
+.detailpagina section:nth-of-type(4) {
+  background-color: #d52b1e;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
+.detailpagina section:nth-of-type(4) h3 {
+  text-align: center;
+  font-size: 4em;
+}
+
+.detailpagina section:nth-of-type(4) ul {
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+
+.detailpagina section:nth-of-type(4) li {
+  color: white;
+  margin-bottom: 5rem;
+}
+
+.detailpagina section:nth-of-type(4) div {
+  display: flex;
+  justify-content: center;
+}
+
+/* Eigenschappen button */
+.detailpagina section:nth-of-type(4) div a {
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  color: #d52b1e;
+  background-color: white;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/* styling van motor stylingvarianten*/
+.detailpagina section:nth-of-type(5) {
+  margin-right: 7vw;
+  margin-left: 7vw;
+}
+
+.detailpagina section:nth-of-type(5) h3 {
+  color: black;
+  margin-top: 2em;
+}
+
+.detailpagina section:nth-of-type(5) button {
+  background-color: #d52b1e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5vw;
+}
+
+.detailpagina section:nth-of-type(5) button span {
+  font-size: 4em;
+  color: white;
+  margin-left: 0.5em;
+}
+
+.detailpagina section:nth-of-type(5) button img {
+  width: 75px;
+  max-width: 256px;
+  height: auto;
+}
+
+.detailpagina section:nth-of-type(5) div:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.detailpagina section:nth-of-type(5) div:nth-of-type(2) > img:last-of-type {
+  width: 30vw;
+}
+
+/* Color variant van de motor */
+.detailpagina section:nth-of-type(5) div:nth-of-type(2) span{
+  font-size: 3em;
+  width: 30vw;
+  text-align: center;
+  border-bottom: #d52b1e .2em solid;
+}
+
+.detailpagina section:nth-of-type(5) h3{
+  color: #d52b1e;
+}
+
+.detailpagina section:nth-of-type(6) {
+  margin-bottom: 10vw;
+  margin-left: 7vw;
+  margin-right: 7vw;
+} 
+
+.detailpagina section:nth-of-type(6) h4 {
+  font-size: 2em;
+}
+
+.detailpagina section:nth-of-type(6) h4:last-of-type {
+  margin-bottom: 1em;
+}
+
+/* styling van accessoires */
+
+.detailpagina section:nth-of-type(7){
+  margin-bottom: 3em;
+}
+
+.detailpagina section:nth-of-type(7) ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(228, 226, 226);
+  padding: 0;
+}
+
+.detailpagina section:nth-of-type(7) li {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.detailpagina section:nth-of-type(7) li a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+}
+
+.detailpagina section:nth-of-type(7) li a span{
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 1em;
+}
+
+.detailpagina section:nth-of-type(7) img {
+  width: 90vw;
+}
+
+/* Bekijk alle button */
+.detailpagina section:nth-of-type(7) > div {
+  display: flex;
+  width: fit-content;
+  background-color: #d52b1e;
+  padding: 2em;
+  margin-left: 5vw;
+  margin-top: 1em;
+}
+
+/* Tekst in de button */
+.detailpagina section:nth-of-type(7) > div > a{
+  color: white;
+  font-size: 2em;
+  font-weight: 900;
+  text-decoration: none;
+} 
+
+/* MyGarage app foto */
+.detailpagina section:nth-of-type(8) img{
+  width: 100vw;
+  margin-bottom: 10vw;
+  margin-top: 10vw;
+}
+
+.detailpagina section:nth-of-type(8) a{
+  text-decoration: none;
+}
+
+/* Positioneren van finance en eigen creatie tekst */
+.detailpagina section:nth-of-type(8) a > *{
+  color: black;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.detailpagina section:nth-of-type(8) a:first-of-type > h2 {
+  font-size: 3em;
+}
+
+/* Eigen creatie header */
+.detailpagina section:nth-of-type(8) a:last-of-type > h2{
+  color: #d52b1e;
+  font-size: 3em;
+}
+
+.detailpagina section:nth-of-type(8) > div:first-of-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-top: 3em;
+}
+
+.detailpagina section:nth-of-type(8) div:first-of-type img {
+  width: 30vw;
+  margin-bottom: 15vw;
+}
+
+/* Google maps background foto */
+.detailpagina section:nth-of-type(8) > div:last-of-type{
+  background-image: url("../images/detailpagina/googleMapsFoto.png");
+  background-size: cover;
+}
+
+/* Overlay Google Maps foto */
+.detailpagina section:nth-of-type(8) > div:last-of-type > div{
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100vw;
+  height: 30vh;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Witte header over Google Maps foto */
+.detailpagina section:nth-of-type(8) div:last-of-type h2{
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+/* Yamaha dealer locator button */
+.detailpagina section:nth-of-type(8) div:last-of-type a{
+  padding: .8em;
+  color: white;
+  background-color: #d52b1e;
+  text-align: center;
+  font-size: 3em;
+}
+
+/* Positioneren van de footer */
+body > footer:first-of-type {
+  width: 100vw;
+  background-color: #3a3a3c;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 2em;
+  font-size: 2em;
+  padding-bottom: 2em;
+}
+
+body > footer:first-of-type > div:first-of-type {
+  width: 100%;
+  height: 2em;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+}
+
+/* Positioneren van de linkjes in de footer */
+body > footer:first-of-type > div:first-of-type > a{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+body > footer:first-of-type > div:nth-of-type(2) {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+}
+
+body > footer:first-of-type > nav {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 4em;
+}
+
+/* Kolommen van de footer */
+body > footer:first-of-type > nav > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  margin-right: 0 !important;
+}
+
+body > footer:first-of-type > nav ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+body > footer:first-of-type > nav li {
+  display: flex;
+  margin: 0.5em;
+}
+
+body > footer:first-of-type > nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Rode banner */
+body > footer:last-of-type {
+  background-color: #d52b1e;
+  position: fixed;
+  height: 9em;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+body > footer:last-of-type a {
+  text-decoration: none;
+  color: white;
+  border: 8px solid white;
+  padding: 0.5em;
+  font-size: 3em;
+}
