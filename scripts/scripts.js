@@ -13,8 +13,8 @@ function toggleDropdown(){
 dropdownButton.addEventListener('click', toggleDropdown);
 
 // Hamburgermenu button selecteren.
-headerMenuKnop = document.querySelector('header:first-of-type > div > i:last-of-type');
-headerMenuZelf = document.querySelector('header:last-of-type');
+headerMenuKnop = document.querySelector('.headerButton');
+headerMenuZelf = document.querySelector('.sideHeader');
 
 
 function headerMenuToggle(){

@@ -70,6 +70,10 @@ header:last-of-type {
   z-index: 9999;
   transition: 1s;
   animation-direction: reverse;
+  -webkit-transform:translateX(100%); 
+              -moz-transform:translateX(100%); 
+              -o-transform:translateX(100%); 
+              -ms-transform:translateX(100%);
 }
 
 header:last-of-type ul {
@@ -545,7 +549,8 @@ section:first-of-type a {
   overflow-x: scroll;
 }
 
-.detailpagina section:nth-of-type(2) > div:last-of-type > img {
+/* .detailpagina section:nth-of-type(2) > div:last-of-type > img { */
+.carrousel img{
   width: 30vw;
   margin-right: 1em;
 }
