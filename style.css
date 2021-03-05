@@ -70,10 +70,7 @@ header:last-of-type {
   z-index: 9999;
   transition: 1s;
   animation-direction: reverse;
-  -webkit-transform:translateX(100%); 
-              -moz-transform:translateX(100%); 
-              -o-transform:translateX(100%); 
-              -ms-transform:translateX(100%);
+  -webkit-transform:translateX(100%);
 }
 
 header:last-of-type ul {
