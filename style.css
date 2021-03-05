@@ -62,8 +62,8 @@ body > header.actiefMenu {
 }
 
 /* Breedte en animatie van hamburger menu */
-header:last-of-type {
-  position: absolute;
+.sideHeader {
+  position: fixed;
   top: 12em;
   width: 100vw;
   transform: translateX(100%);
