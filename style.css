@@ -52,7 +52,7 @@ header:first-of-type > div > a > i {
 }
 
 /* Kleur van het hamburger menu */
-header:first-of-type > div > i {
+header:first-of-type > div > button > i {
   color: #d52b1e;
 }
 
@@ -62,7 +62,7 @@ body > header.actiefMenu {
 }
 
 /* Breedte en animatie van hamburger menu */
-header:last-of-type {
+.sideHeader {
   position: fixed;
   top: 12em;
   width: 100vw;
@@ -76,13 +76,13 @@ header:last-of-type {
               -ms-transform:translateX(100%);
 }
 
-header:last-of-type ul {
+.sideHeader ul {
   height: 48vh;
   width: 100vw;
   padding: 0;
 }
 
-header:last-of-type > ul:first-of-type {
+.sideHeader > ul:first-of-type {
   background-color: white;
 }
 
@@ -91,7 +91,7 @@ header:last-of-type > ul:last-of-type {
   color: white;
 }
 
-header:last-of-type li {
+.sideHeader li {
   display: flex;
   font-size: 3em;
   justify-content: space-between;
@@ -104,7 +104,7 @@ header:last-of-type li {
 }
 
 /* Pijltje bij de onderdelen in het hamburger menu */
-header:last-of-type span {
+.sideHeader span {
   transform: rotate(90deg);
 }
 
