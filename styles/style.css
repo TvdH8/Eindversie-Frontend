@@ -118,7 +118,18 @@ body > header.actiefMenu {
 }
 
 header:last-of-type > ul:last-of-type {
-  background-color: grey;
+  background-color: rgb(90, 89, 89);;
+}
+
+.sideHeader a {
+  text-decoration: none;
+}
+
+header:last-of-type > ul:first-of-type a {
+  color: rgb(90, 89, 89);
+}
+
+header:last-of-type > ul:last-of-type a {
   color: white;
 }
 
@@ -128,14 +139,14 @@ header:last-of-type > ul:last-of-type {
   justify-content: space-between;
   align-items: center;
   height: 2em;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid rgb(90, 89, 89);;
   padding-left: 1em;
   padding-right: 1em;
   width: 100vw;
 }
 
 /* Pijltje bij de onderdelen in het hamburger menu */
-.sideHeader span {
+.sideHeader > li > a > span {
   transform: rotate(90deg);
 }
 
@@ -185,8 +196,8 @@ h5 {
   height: 5em;
   padding-left: 0.5em;
   padding-bottom: 0.2em;
-  -webkit-animation: fadeIn 2s ease-out;
-  animation: fadeIn 2s ease-out;
+  -webkit-animation: fadeIn 3s ease-in;
+  animation: fadeIn 3s ease-in;
 }
 
 /* Hero image en tekst fade-in */
@@ -259,13 +270,13 @@ section:first-of-type a {
   margin: 0;
 }
 
-.homepage section:nth-of-type(2) > ul > li > div> h3{
+.homepage section:nth-of-type(2) > ul > li > div > h3{
   font-size: 4em;
   margin-top: 1em;
   margin-left: .7em;
 }
 
-.homepage section:nth-of-type(2) > ul > li > div> h5{
+.homepage section:nth-of-type(2) > ul > li > div > h5{
   font-size: 3em;
   margin-top: 1em;
   margin-left: 1em;
@@ -348,7 +359,7 @@ section:first-of-type a {
 }
 
 /*Kopje van de overgang naar het 2e deel van de pagina*/
-.homepage article section:first-of-type {
+.homepage div:first-of-type section:first-of-type {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -360,13 +371,13 @@ section:first-of-type a {
   padding-top: 5em;
 }
 
-.homepage article section:first-of-type div {
+.homepage div:first-of-type section:first-of-type div {
   width: 70vw;
   padding-top: 3em;
   margin-top: 3em;
 }
 
-.homepage article section:first-of-type div p {
+.homepage div:first-of-type section:first-of-type div p {
   font-size: 2.25em;
   color: white;
   margin-top: 2em;
@@ -451,6 +462,8 @@ section:first-of-type a {
 .homepage .img-column ul li:nth-of-type(6) {
   background-image: url("../images/myride-app.jpeg");
 }
+
+
 
 
 /* CSS van de detailpagina begint hier */
@@ -594,13 +607,12 @@ section:first-of-type a {
 
 @-webkit-keyframes toolsIconSlide {
   0%     { -webkit-transform: translateX(-50px); }
-  50%    { -webkit-transform: 0; }
-  100%   { -webkit-transform: translateX(-50px); }
+  100%   { -webkit-transform: 0; }
 }
 
 @keyframes toolsIconSlide {
   0%     { transform: translateX(-150px); }
-  100%   { transform: 0; }
+  100%   { transform: translateX(0px); }
 }
 
 /* Media blok en slider */
@@ -765,8 +777,14 @@ section:first-of-type a {
   margin-right: 7vw;
 } 
 
+.detailpagina section:nth-of-type(6) h3{
+  color: #d52b1e;
+  margin-top: 5vh;
+}
+
 .detailpagina section:nth-of-type(6) h4 {
   font-size: 2em;
+  color: black;
 }
 
 .detailpagina section:nth-of-type(6) h4:last-of-type {
@@ -775,11 +793,11 @@ section:first-of-type a {
 
 /* styling van accessoires */
 
-.detailpagina section:nth-of-type(7){
+.detailpagina .spareParts{
   margin-bottom: 3em;
 }
 
-.detailpagina section:nth-of-type(7) ul {
+.detailpagina .spareParts ul {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -787,12 +805,12 @@ section:first-of-type a {
   padding: 0;
 }
 
-.detailpagina section:nth-of-type(7) li {
+.detailpagina .spareParts li {
   display: flex;
   margin-bottom: 1em;
 }
 
-.detailpagina section:nth-of-type(7) li a {
+.detailpagina .spareParts li a {
   color: black;
   text-decoration: none;
   display: flex;
@@ -800,18 +818,18 @@ section:first-of-type a {
   flex-direction: column;
 }
 
-.detailpagina section:nth-of-type(7) li a span{
+.detailpagina .spareParts li a span{
   font-size: 2.5em;
   font-weight: bold;
   margin: 1em;
 }
 
-.detailpagina section:nth-of-type(7) img {
+.detailpagina .spareParts img {
   width: 90vw;
 }
 
 /* Bekijk alle button */
-.detailpagina section:nth-of-type(7) > div {
+.detailpagina .spareParts > div {
   display: flex;
   width: fit-content;
   background-color: #d52b1e;
@@ -821,7 +839,7 @@ section:first-of-type a {
 }
 
 /* Tekst in de button */
-.detailpagina section:nth-of-type(7) > div > a{
+.detailpagina .spareParts > div > a{
   color: white;
   font-size: 2em;
   font-weight: 900;
@@ -829,18 +847,18 @@ section:first-of-type a {
 } 
 
 /* MyGarage app foto */
-.detailpagina section:nth-of-type(8) img{
+.detailpagina section:nth-of-type(7) img{
   width: 100vw;
   margin-bottom: 10vw;
   margin-top: 10vw;
 }
 
-.detailpagina section:nth-of-type(8) a{
+.detailpagina section:nth-of-type(7) a{
   text-decoration: none;
 }
 
 /* Positioneren van finance en eigen creatie tekst */
-.detailpagina section:nth-of-type(8) a > *{
+.detailpagina section:nth-of-type(7) a > *{
   color: black;
   margin-left: 10vw;
   margin-right: 10vw;
@@ -848,36 +866,36 @@ section:first-of-type a {
   margin-top: 1em;
 }
 
-.detailpagina section:nth-of-type(8) a:first-of-type > h2 {
+.detailpagina section:nth-of-type(7) a:first-of-type > h2 {
   font-size: 3em;
 }
 
 /* Eigen creatie header */
-.detailpagina section:nth-of-type(8) a:last-of-type > h2{
+.detailpagina section:nth-of-type(7) a:last-of-type > h2{
   color: #d52b1e;
   font-size: 3em;
 }
 
-.detailpagina section:nth-of-type(8) > div:first-of-type {
+.detailpagina section:nth-of-type(7) > div:first-of-type {
   display: flex;
   flex-direction: row;
   justify-content: start;
   margin-top: 3em;
 }
 
-.detailpagina section:nth-of-type(8) div:first-of-type img {
+.detailpagina section:nth-of-type(7) div:first-of-type img {
   width: 30vw;
   margin-bottom: 15vw;
 }
 
 /* Google maps background foto */
-.detailpagina section:nth-of-type(8) > div:last-of-type{
+.detailpagina section:nth-of-type(7) > div:last-of-type{
   background-image: url("../images/detailpagina/googleMapsFoto.png");
   background-size: cover;
 }
 
 /* Overlay Google Maps foto */
-.detailpagina section:nth-of-type(8) > div:last-of-type > div{
+.detailpagina section:nth-of-type(7) > div:last-of-type > div{
   background-color: rgba(0, 0, 0, 0.3);
   width: 100vw;
   height: 30vh;
@@ -888,7 +906,7 @@ section:first-of-type a {
 }
 
 /* Witte header over Google Maps foto */
-.detailpagina section:nth-of-type(8) div:last-of-type h2{
+.detailpagina section:nth-of-type(7) div:last-of-type h2{
   color: white;
   font-size: 4em;
   text-align: center;
@@ -896,7 +914,7 @@ section:first-of-type a {
 }
 
 /* Yamaha dealer locator button */
-.detailpagina section:nth-of-type(8) div:last-of-type a{
+.detailpagina section:nth-of-type(7) div:last-of-type a{
   padding: .8em;
   color: white;
   background-color: #d52b1e;

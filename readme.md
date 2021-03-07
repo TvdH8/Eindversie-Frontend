@@ -27,11 +27,8 @@ Deze heb ik een beetje aangepast of weggelaten, zodat het eindresultaat er minde
 **Screenshot(s):**
 
 **Homepage**
-<img src="images/screenshots-eindgesprek/hamburger-menu.png" width="750px">
-
 
 **Detailpagina**
-<img src="images/screenshots-eindgesprek/" width="750px">
 
 ## Voortgang 3 (week 6)
 
