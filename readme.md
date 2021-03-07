@@ -28,11 +28,11 @@ Deze heb ik een beetje aangepast of weggelaten, zodat het eindresultaat er minde
 
 **Homepage**
 
-<img src="gifjes/homepageGIF.gif" width="100">
+![GIF van detailpagina](gifjes/homepageGIF.gif")
 
 **Detailpagina**
 
-<img src="gifjes/detailpaginaGIF.gif" width="100">
+![GIF van detailpagina](gifjes/detailpaginaGIF.gif")
 
 ## Voortgang 3 (week 6)
 
