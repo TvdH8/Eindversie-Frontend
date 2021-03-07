@@ -9,7 +9,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. Hoe werkt een slider met images: https://codepen.io/shooft/pen/rNeEjYd?editors=1100.
 1. Class van een element togglen: https://stackoverflow.com/questions/195951/how-can-i-change-an-elements-class-with-javascript.
 1. Een font-awesome icon animeren: https://www.youtube.com/watch?v=XP-MRCUPZao.
-1. 
+1. Problem solving van de icoon animatie: https://stackoverflow.com/questions/29400527/my-css-animations-are-not-working-in-ios/29401112.
+1. CSS keyframes animation: https://thoughtbot.com/blog/css-animation-for-beginners.
+1. CSS fade in animation: https://blog.hubspot.com/website/css-fade-in.
+
 
 ## Eindgesprek (week 7/8)
 Ik heb gekozen voor de surface plane.

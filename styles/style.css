@@ -11,6 +11,10 @@ html,
   box-sizing: border-box;
 }
 
+p {
+  font-size: 1.5em;
+}
+
 /* Positioneren van de vaste header */
 header:first-of-type {
   background-color: white;
@@ -59,10 +63,7 @@ header:first-of-type > div > button > i {
 
 header:first-of-type > div > button > i.fa-times {
   font-size: 6em;
-  animation: hamburgerButtonMove 1s;
-}
-
-header:first-of-type > div > button > i.fa-times {
+  -webkit-animation: hamburgerButtonMove 1s;
   animation: hamburgerButtonMove 1s;
 }
 
@@ -71,9 +72,15 @@ header:first-of-type > div > button {
   border: 0;
 }
 
+/* Animatie van het kruisje in de header */
+@-webkit-keyframes hamburgerButtonMove {
+  0%    { -webkit-transform: translateX(150px); }
+  100%  { -webkit-transform: 0; }
+}
+
 @keyframes hamburgerButtonMove {
-  0%    { transform: translateX(150px); }
-  100%  { transform: 0; }
+  0%    { -webkit-transform: translateX(150px); }
+  100%  { -webkit-transform: 0; }
 }
 
 /* Hamburger menu is standaard gesloten */
@@ -174,6 +181,19 @@ h5 {
   height: 5em;
   padding-left: 0.5em;
   padding-bottom: 0.2em;
+  -webkit-animation: fadeIn 2s ease-out;
+  animation: fadeIn 2s ease-out;
+}
+
+/* Hero image en tekst fade-in */
+@keyframes fadeIn{
+  0%    { opacity: 0; }
+  100%  { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn{
+  0%    { opacity: 0; }
+  100%  { opacity: 1; }
 }
 
 /* Ontdek button */
@@ -550,7 +570,33 @@ section:first-of-type a {
   margin-bottom: 10vw;
   margin-left: 10vw;
   margin-right: 10vw;
+}
 
+.detailpagina section:nth-of-type(2) a {
+  font-size: 1.5em;
+}
+
+/* Styling en animation van het tools icoon */
+.detailpagina > section:nth-of-type(2) > a > .fa-tools {
+  margin-right: 30px;
+  font-size: 1em;
+  -webkit-animation: toolsIconSlide 2s ease;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation: toolsIconSlide 2s ease;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes toolsIconSlide {
+  0%     { -webkit-transform: translateX(-50px); }
+  50%    { -webkit-transform: 0; }
+  100%   { -webkit-transform: translateX(-50px); }
+}
+
+@keyframes toolsIconSlide {
+  0%     { transform: translateX(-150px); }
+  100%   { transform: 0; }
 }
 
 /* Media blok en slider */
@@ -571,7 +617,6 @@ section:first-of-type a {
   overflow-x: scroll;
 }
 
-/* .detailpagina section:nth-of-type(2) > div:last-of-type > img { */
 .carrousel img{
   width: 30vw;
   margin-right: 1em;
@@ -580,7 +625,7 @@ section:first-of-type a {
 /* Button */
 .detailpagina section:nth-of-type(2) > a {
   background-color: #d52b1e;
-  padding: 0.5em 0.25em 0.5em 0.25em;
+  padding: 0.5em 0.75em 0.5em 0.75em;
   text-decoration: none;
   color: white;
   font-size: 3em;
