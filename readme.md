@@ -75,9 +75,10 @@ Ik had soms problemen met het opslaan van de foto's, dus dat kostte ook erg veel
 ### Stand van zaken
 Het was makkelijk om alle code over te nemen, maar het kostte erg veel tijd.
 Ik had soms problemen met het opslaan van de foto's, dus dat kostte ook erg veel tijd.
+
 **Screenshot(s):**
-<img src="momentopname4.png" width="300px" alt="Momentopname van de code voor het 1e gesprek.">
-<img src="momentopname5.png" width="300px" alt="Momentopname van de code voor het 1e gesprek.">
+
+<img src="momentopname4.png" width="300px" alt="Momentopname van de code voor het 1e gesprek."> <img src="momentopname5.png" width="300px" alt="Momentopname van de code voor het 1e gesprek.">
 <img src="momentopname6.png" width="300px" alt="Momentopname van de code voor het 1e gesprek.">
 
 ### Agenda voor meeting
