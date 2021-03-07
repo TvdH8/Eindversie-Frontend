@@ -51,9 +51,26 @@ header:first-of-type > div > a > i {
   color: black;
 }
 
-/* Kleur van het hamburger menu */
+/* Styling van de hamburger menu button */
 header:first-of-type > div > button > i {
   color: #d52b1e;
+  font-size: 5em;
+}
+
+header:first-of-type > div > button > i.fa-times {
+  font-size: 6em;
+  -webkit-animation: hamburgerButtonMove 1s;
+}
+
+header:first-of-type > div > button {
+  background-color: transparent;
+  border: 0;
+}
+
+/* Animatie van het kruisje in de header */
+@-webkit-keyframes hamburgerButtonMove {
+  0%    { -webkit-transform: translateX(150px); }
+  100%  { -webkit-transform: 0; }
 }
 
 /* Hamburger menu is standaard gesloten */
@@ -318,6 +335,8 @@ section:first-of-type a {
 
 .homepage article section:first-of-type div {
   width: 70vw;
+  padding-top: 3em;
+  margin-top: 3em;
 }
 
 .homepage article section:first-of-type div p {
