@@ -7,8 +7,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. Darken an image with filter: https://www.dailysmarty.com/posts/how-to-darken-an-image-with-css.
 1. Pick a color of an image: https://pinetools.com/image-color-picker.
 1. Hoe werkt een slider met images: https://codepen.io/shooft/pen/rNeEjYd?editors=1100.
+1. Class van een element togglen: https://stackoverflow.com/questions/195951/how-can-i-change-an-elements-class-with-javascript.
+1. Een font-awesome icon animeren: https://www.youtube.com/watch?v=XP-MRCUPZao.
+1. 
 
 ## Eindgesprek (week 7/8)
+Ik heb gekozen voor de surface plane.
+Ik heb daarom 5 animaties geïmplementeerd:
+
 Ik had uiteindelijk redelijk wat moeite met het werkend krijgen van de dropdown op de detailpagina en het hamburger menu.
 Hiervoor heb ik de hulp ingeschakeld van Daan, zodat hij me op weg kon helpen met deze menu's.
 Na veel moeite heb ik het uiteindelijk werkend gekregen.
@@ -19,24 +25,10 @@ Deze heb ik een beetje aangepast of weggelaten, zodat het eindresultaat er minde
 
 **Homepage**
 <img src="images/screenshots-eindgesprek/hamburger-menu.png" width="750px">
-<img src="images/screenshots-eindgesprek/homepage1.png" width="750px">
-<img src="images/screenshots-eindgesprek/homepage2.png" width="750px">
-<img src="images/screenshots-eindgesprek/homepage3.png" width="750px">
-<img src="images/screenshots-eindgesprek/homepage4.png" width="750px">
-<img src="images/screenshots-eindgesprek/homepage5.png" width="750px">
-<img src="images/screenshots-eindgesprek/homepage6.png" width="750px">
+
 
 **Detailpagina**
-<img src="images/screenshots-eindgesprek/detailpagina1.png" width="750px">
-<img src="images/screenshots-eindgesprek/detailpagina2.png" width="750px">
-<img src="images/screenshots-eindgesprek/detailpagina3.png" width="750px">
-<img src="images/screenshots-eindgesprek/detailpagina4.png" width="750px">
-<img src="images/screenshots-eindgesprek/detailpagina5.png" width="750px">
-<img src="images/screenshots-eindgesprek/detailpagina6.png" width="750px">
-<img src="images/screenshots-eindgesprek/detailpagina7.png" width="750px">
-<img src="images/screenshots-eindgesprek/detailpagina8.png" width="750px">
-<img src="images/screenshots-eindgesprek/detailpagina9.png" width="750px">
-<img src="images/screenshots-eindgesprek/detailpagina10.png" width="750px">
+<img src="images/screenshots-eindgesprek/" width="750px">
 
 ## Voortgang 3 (week 6)
 

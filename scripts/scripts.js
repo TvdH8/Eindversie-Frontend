@@ -15,10 +15,13 @@ dropdownButton.addEventListener('click', toggleDropdown);
 // Hamburgermenu button selecteren.
 headerMenuKnop = document.querySelector('.headerButton');
 headerMenuZelf = document.querySelector('.sideHeader');
+headerButtonIcoon = document.querySelector('.headerButton i');
 
 
 function headerMenuToggle(){
-    headerMenuZelf.classList.toggle('actiefMenu')
+    headerMenuZelf.classList.toggle('actiefMenu');
+    headerButtonIcoon.classList.toggle('fa-bars');
+    headerButtonIcoon.classList.toggle('fa-times');
 }
 
 // Header menu togglen als je op de button klikt. Toggle van open en dicht.
@@ -26,6 +29,8 @@ headerMenuKnop.addEventListener('click', headerMenuToggle);
 
 alleImagesInScrollX = document.querySelector('.carrousel');
 fotoPlaceholder = document.querySelector('.placeholder');
+
+
 
 // Als je klikt op een foto uit de carousel, dan word die gewisseld met het grote plaatje
 function vervangFoto(event){
