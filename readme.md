@@ -18,9 +18,19 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 Ik heb gekozen voor de surface plane.
 Ik heb daarom 5 animaties geïmplementeerd:
 
-Ik had uiteindelijk redelijk wat moeite met het werkend krijgen van de dropdown op de detailpagina en het hamburger menu.
+1. Het kruisje van het hamburger menu.
+1. Het uitklappen van het hamburger menu.
+1. De hero image op de thuispagina.
+1. Het pijltje in het dropdown menu op de detailpagina.
+1. Het icoontje bij de eerste button op de detailpagina.
+
+Ik had uiteindelijk redelijk wat moeite met het werkend krijgen van de dropdown en het hamburger menu op de detailpagina.
 Hiervoor heb ik de hulp ingeschakeld van Daan, zodat hij me op weg kon helpen met deze menu's.
 Na veel moeite heb ik het uiteindelijk werkend gekregen.
+
+Daarnaast is het mij op de een of andere manier niet gelukt om de afbeeldingen in de horizontale scroll een normale hoogte te geven.
+Ik heb hier een paar uur aan gezeten en zelfs met de hulp van anderen is het mij niet gelukt.
+
 Verder vond ik dat de website die ik gekozen heb, heel veel fouten en rare features had. 
 Deze heb ik een beetje aangepast of weggelaten, zodat het eindresultaat er minder raar uit ziet en beter werkt.
 
@@ -28,11 +38,11 @@ Deze heb ik een beetje aangepast of weggelaten, zodat het eindresultaat er minde
 
 **Homepage**
 
-![GIF van detailpagina](gifjes/homepageGIF.gif")
+![GIF van detailpagina](/gifjes/homepageGIF.gif")
 
 **Detailpagina**
 
-![GIF van detailpagina](gifjes/detailpaginaGIF.gif")
+![GIF van detailpagina](/gifjes/detailpaginaGIF.gif")
 
 ## Voortgang 3 (week 6)
 
