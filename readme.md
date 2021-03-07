@@ -48,10 +48,9 @@ In de tussentijd heb ik er niks aan veranderd.
 
 **Screenshot(s):**
 
- <img src="images/tussentijds-gesprek-3-2.png" width="750px" alt="Momentopname van de website voor het 3e gesprek.">
- <img src="images/tussentijds-gesprek-3-1.png" width="750px" alt="Momentopname van de website voor het 3e gesprek.">
- <img src="images/tussentijds-gesprek-3-3d.png" width="750px" alt="Momentopname van de website voor het 3e gesprek.">
- <img src="images/tussentijds-gesprek-3-3.png" width="750px" alt="Momentopname van de website voor het 3e gesprek.">
+ <img src="images/tussentijds-gesprek-3-2.png" width="300px" alt="Momentopname van de website voor het 3e gesprek."> <img src="images/tussentijds-gesprek-3-1.png" width="300px" alt="Momentopname van de website voor het 3e gesprek.">
+ 
+ <img src="images/tussentijds-gesprek-3-3d.png" width="300px" alt="Momentopname van de website voor het 3e gesprek."> <img src="images/tussentijds-gesprek-3-3.png" width="300px" alt="Momentopname van de website voor het 3e gesprek.">
 
  ## Voortgang 2 (week 5)
 
@@ -77,9 +76,9 @@ Ik had soms problemen met het opslaan van de foto's, dus dat kostte ook erg veel
 Het was makkelijk om alle code over te nemen, maar het kostte erg veel tijd.
 Ik had soms problemen met het opslaan van de foto's, dus dat kostte ook erg veel tijd.
 **Screenshot(s):**
-<img src="momentopname4.png" width="750px" alt="Momentopname van de code voor het 1e gesprek.">
-<img src="momentopname5.png" width="750px" alt="Momentopname van de code voor het 1e gesprek.">
-<img src="momentopname6.png" width="750px" alt="Momentopname van de code voor het 1e gesprek.">
+<img src="momentopname4.png" width="300px" alt="Momentopname van de code voor het 1e gesprek.">
+<img src="momentopname5.png" width="300px" alt="Momentopname van de code voor het 1e gesprek.">
+<img src="momentopname6.png" width="300px" alt="Momentopname van de code voor het 1e gesprek.">
 
 ### Agenda voor meeting
 
