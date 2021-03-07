@@ -52,14 +52,17 @@ In de tussentijd heb ik er niks aan veranderd.
  
  <img src="images/tussentijds-gesprek-3-3d.png" width="300px" alt="Momentopname van de website voor het 3e gesprek."> <img src="images/tussentijds-gesprek-3-3.png" width="300px" alt="Momentopname van de website voor het 3e gesprek.">
 
+
  ## Voortgang 2 (week 5)
 
 ### Stand van zaken
 Het was makkelijk om alle code over te nemen, maar het kostte erg veel tijd.
 Ik had soms problemen met het opslaan van de foto's, dus dat kostte ook erg veel tijd.
+
 **Screenshot(s):**
 <img src="images/momentopname-week5.png" width="750px" alt="Momentopname van de website voor het 2e gesprek.">
 <img src="images/momentopname-week5-2.png" width="750px" alt="Momentopname van de website voor het 2e gesprek.">
+
 ### Agenda voor meeting
 **Stijn:** 
 1. Hoe kan ik het bovenste gedeelte van de home pagina goed maken? Dus het om de zo veel seconden verandere van de foto en tekst.
@@ -71,7 +74,9 @@ Ik had soms problemen met het opslaan van de foto's, dus dat kostte ook erg veel
 1. Ik heb het idee dat de preview van brackets soms gek doet, doordat hij soms dingen niet aanpast of dingen vanuit zichzelf.
 **Zain**
 1. Gebruik ik teveel div's?
+
 ## Voortgang 1 (week 3)
+
 ### Stand van zaken
 Het was makkelijk om alle code over te nemen, maar het kostte erg veel tijd.
 Ik had soms problemen met het opslaan van de foto's, dus dat kostte ook erg veel tijd.
@@ -108,6 +113,7 @@ Ik had soms problemen met het opslaan van de foto's, dus dat kostte ook erg veel
 **Antwoorden op mijn vragen:**
 
 ## Breakdownschets (week 1)
+
 <img src="images/breakdown-geheel.png" width="750px" alt="Breakdown schets van de gehele homepage.">
 <img src="images/breakdown-delen.png" width="750px" alt="Breakdownschetsen van de onderdelen van de homepage.">
 
