@@ -11,8 +11,12 @@ html,
   box-sizing: border-box;
 }
 
-p {
-  font-size: 1.5em;
+.homepage p {
+  font-size: 2em;
+}
+
+.detailpagina p {
+  font-size: 2em;
 }
 
 /* Positioneren van de vaste header */
@@ -210,7 +214,7 @@ section:first-of-type a {
 }
 
 .homepage section:first-of-type span {
-  font-size: 2.5em;
+  font-size: 3.5em;
   margin-top: 1.75em;
   margin-bottom: 1.75em;
   margin-left: 10vw;
@@ -541,10 +545,10 @@ section:first-of-type a {
 /* Animatie van het pijltje */
 .fa-chevron-right {
   color: #d52b1e;
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
   transform: rotate(90deg);
 }
 
@@ -618,6 +622,7 @@ section:first-of-type a {
 }
 
 .carrousel img{
+  height: auto !important; 
   width: 30vw;
   margin-right: 1em;
 }
