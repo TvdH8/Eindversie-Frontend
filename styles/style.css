@@ -3,6 +3,7 @@ html,
   margin: 0;
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 *,
@@ -624,6 +625,7 @@ section:first-of-type a {
 .detailpagina section:nth-of-type(2) > div:first-of-type > img {
   margin-top: 5em;
   width: 100vw;
+  height: auto;
 }
 
 .detailpagina section:nth-of-type(2) > div:last-of-type {
@@ -631,6 +633,7 @@ section:first-of-type a {
   flex-direction: row;
   width: 100vw;
   overflow-x: scroll;
+  height: auto;
 }
 
 .carrousel img{
