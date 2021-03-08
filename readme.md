@@ -27,11 +27,12 @@ Ik heb daarom 5 animaties geïmplementeerd:
 Ik had uiteindelijk redelijk wat moeite met het werkend krijgen van de dropdown en het hamburger menu op de detailpagina.
 Hiervoor heb ik de hulp ingeschakeld van Daan, zodat hij me op weg kon helpen met deze menu's.
 Na veel moeite heb ik het uiteindelijk werkend gekregen.
+Ook had ik veel moeite met de animaties voor op Iphone. Deze deden het eerst niet, maar dat kwam omdat ik vergeten was dat je hiervoor de -webkit- prefix nodig hebt. Zonder deze prefix werkte het niet.
 
-Daarnaast is het mij op de een of andere manier niet gelukt om de afbeeldingen in de horizontale scroll een normale hoogte te geven.
-Ik heb hier een paar uur aan gezeten en zelfs met de hulp van anderen is het mij niet gelukt.
+Wat wel goed gelukt is, is de slider met de afbeeldingen van motoren op de detailpagina. Ik had hier lange tijd problemen mee op mijn Iphone. De afbeeldingen waren namelijk uitgerekt.
+Gelukkig is op de laatste dag dit gelukt, waar ik erg blij me ben.
 
-Verder vond ik dat de website die ik gekozen heb, heel veel fouten en rare features had. 
+Verder vond ik dat de website die ik gekozen heb veel fouten en rare features had. 
 Deze heb ik een beetje aangepast of weggelaten, zodat het eindresultaat er minder raar uit ziet en beter werkt.
 
 **Screenshot(s):**
