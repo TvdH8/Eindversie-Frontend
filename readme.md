@@ -39,6 +39,7 @@ Deze heb ik een beetje aangepast of weggelaten, zodat het eindresultaat er minde
 **Homepage**
 
 ![GIF van homepage](https://media.giphy.com/media/bqH8PV8BK5S0aiyyHB/giphy.gif")
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
 
 **Detailpagina**
 
@@ -71,6 +72,7 @@ Het was makkelijk om alle code over te nemen, maar het kostte erg veel tijd.
 Ik had soms problemen met het opslaan van de foto's, dus dat kostte ook erg veel tijd.
 
 **Screenshot(s):**
+
 <img src="images/momentopname-week5.png" width="300px" alt="Momentopname van de website voor het 2e gesprek."> <img src="images/momentopname-week5-2.png" width="300px" alt="Momentopname van de website voor het 2e gesprek.">
 
 ### Agenda voor meeting
