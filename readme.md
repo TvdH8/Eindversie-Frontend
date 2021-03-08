@@ -38,7 +38,7 @@ Deze heb ik een beetje aangepast of weggelaten, zodat het eindresultaat er minde
 
 **Homepage**
 
-<img src="https://media.giphy.com/media/bqH8PV8BK5S0aiyyHB/giphy.gif" width="300px" />
+<img src="https://giphy.com/gifs/bqH8PV8BK5S0aiyyHB/html5.gif" width="300px" />
 
 **Detailpagina**
 
