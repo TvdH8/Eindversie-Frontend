@@ -38,11 +38,11 @@ Deze heb ik een beetje aangepast of weggelaten, zodat het eindresultaat er minde
 
 **Homepage**
 
-![GIF van homepage](/gifjes/homepageGIF.gif")
+![GIF van homepage](https://media.giphy.com/media/bqH8PV8BK5S0aiyyHB/giphy.gif")
 
 **Detailpagina**
 
-![GIF van detailpagina](/gifjes/detailpaginaGIF.gif")
+![GIF van detailpagina](https://media.giphy.com/media/sp7kAF6QEmQE9cNN11/giphy.gif")
 
 ## Voortgang 3 (week 6)
 
@@ -71,8 +71,7 @@ Het was makkelijk om alle code over te nemen, maar het kostte erg veel tijd.
 Ik had soms problemen met het opslaan van de foto's, dus dat kostte ook erg veel tijd.
 
 **Screenshot(s):**
-<img src="images/momentopname-week5.png" width="750px" alt="Momentopname van de website voor het 2e gesprek.">
-<img src="images/momentopname-week5-2.png" width="750px" alt="Momentopname van de website voor het 2e gesprek.">
+<img src="images/momentopname-week5.png" width="300px" alt="Momentopname van de website voor het 2e gesprek."> <img src="images/momentopname-week5-2.png" width="300px" alt="Momentopname van de website voor het 2e gesprek.">
 
 ### Agenda voor meeting
 **Stijn:** 
