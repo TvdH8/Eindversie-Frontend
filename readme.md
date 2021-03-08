@@ -60,9 +60,9 @@ In de tussentijd heb ik er niks aan veranderd.
 
 **Screenshot(s):**
 
- <img src="images/tussentijds-gesprek-3-2.png" width="300px" alt="Momentopname van de website voor het 3e gesprek."> <img src="images/tussentijds-gesprek-3-1.png" width="300px" alt="Momentopname van de website voor het 3e gesprek.">
+ <img src="images/tussentijds-gesprek-3-1.png" width="300px" alt="Momentopname van de website voor het 3e gesprek."> <img src="images/tussentijds-gesprek-3-2.png" width="300px" alt="Momentopname van de website voor het 3e gesprek."> 
  
- <img src="images/tussentijds-gesprek-3-3d.png" width="300px" alt="Momentopname van de website voor het 3e gesprek."> <img src="images/tussentijds-gesprek-3-3.png" width="300px" alt="Momentopname van de website voor het 3e gesprek.">
+ <img src="images/tussentijds-gesprek-3-3.png" width="300px" alt="Momentopname van de website voor het 3e gesprek.">
 
 
  ## Voortgang 2 (week 5)
