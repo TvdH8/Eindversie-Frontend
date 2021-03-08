@@ -40,6 +40,7 @@ Deze heb ik een beetje aangepast of weggelaten, zodat het eindresultaat er minde
 
 <img src="https://media.giphy.com/media/OPWzEyJAaOWQRsYXkQ/giphy.gif" width="300px" />
 
+
 **Detailpagina**
 
 <img src="https://media.giphy.com/media/sp7kAF6QEmQE9cNN11/giphy.gif" width="300px" />
