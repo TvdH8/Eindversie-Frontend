@@ -38,7 +38,7 @@ Deze heb ik een beetje aangepast of weggelaten, zodat het eindresultaat er minde
 
 **Homepage**
 
-![GIF van detailpagina](/gifjes/homepageGIF.gif")
+![GIF van homepage](/gifjes/homepageGIF.gif")
 
 **Detailpagina**
 

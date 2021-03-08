@@ -636,8 +636,8 @@ section:first-of-type a {
   height: auto;
 }
 
-.carrousel img{
-  height: auto !important; 
+.detailpagina .carrousel img{
+  height: 100% !important; 
   width: 30vw;
   margin-right: 1em;
 }
