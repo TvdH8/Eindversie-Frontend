@@ -38,12 +38,12 @@ Deze heb ik een beetje aangepast of weggelaten, zodat het eindresultaat er minde
 
 **Homepage**
 
-![GIF van homepage](https://media.giphy.com/media/bqH8PV8BK5S0aiyyHB/giphy.gif")
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+<img src="https://media.giphy.com/media/bqH8PV8BK5S0aiyyHB/giphy.gif" width="300px" />
 
 **Detailpagina**
 
-![GIF van detailpagina](https://media.giphy.com/media/sp7kAF6QEmQE9cNN11/giphy.gif")
+<img src="https://media.giphy.com/media/sp7kAF6QEmQE9cNN11/giphy.gif" width="300px" />
+
 
 ## Voortgang 3 (week 6)
 
